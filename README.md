@@ -22,7 +22,7 @@ This is a lightweight calculator application built with HTML, CSS, and JavaScrip
 
 Simply open the `index.html` file in a web browser to launch the calculator application.
 
-Feel free to use and customize this calculator for your needs. If you have any suggestions or find any issues, please let us know.
+Feel free to use and customize this calculator for your needs. If you have any suggestions or find any issues, please let me know.
 
 Happy calculating!
 

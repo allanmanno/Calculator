@@ -1,70 +1,81 @@
-body{
-     margin: 10px 0px 0px 0px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+body {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#calculator{
-    font-family: Arial, sans-serif;
-    border:1px solid black;
-    padding-left: 5px;
-    padding-top: 5px;
-    background-color:rgb(197, 217, 230);
-    border-radius: 10px;
-}
-#keys{
-    display:grid;
-    grid-template-columns: 100px 100px 100px 100px;
 
-}
-#display{
-    height: 80px;
-    width: 387px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    border:3px solid black;
+#calculator {
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(197, 217, 230);
     border-radius: 10px;
-    padding-right:5px;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* Ensures 4 columns */
+    gap: 5px; /* Adds space between buttons */
+}
+
+#display {
+    height: 80px;
+    width: 400px; /* Adjust width to fit the grid layout */
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-right: 5px;
     text-align: right;
     font-size: 40px;
-    background-color:rgb(67, 86, 107);
-    color:white;
+    background-color: rgb(67, 86, 107);
+    color: white;
 }
-button{
-    width:94px;
+
+button {
+    width: 100%; /* Make button width fill the grid cell */
     height: 80px;
-    margin-bottom: 5px;
-    font-size:50px;
+    font-size: 50px;
     border: 1px solid black;
-    border-radius:100px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
-button:hover{
-    cursor:pointer;
+
+button:hover {
+    cursor: pointer;
 }
-.number:hover{
-    background-color:grey;
-    color:white;
+
+.number:hover {
+    background-color: grey;
+    color: white;
 }
-.number:active{
-    background-color:black
+
+.number:active {
+    background-color: black;
 }
-.operator{
+
+.operator {
     background-color: rgb(190, 140, 155);
-    color:white;
+    color: white;
 }
-.operator:hover{
+
+.operator:hover {
     background-color: rgb(210, 140, 155);
 }
-.operator:active{
+
+.operator:active {
     background-color: rgb(230, 140, 155);
 }
-.clear{
+
+.clear {
     background-color: rgb(128, 145, 185);
-    color:white;
+    color: white;
 }
-.clear:hover{
+
+.clear:hover {
     background-color: rgb(128, 145, 210);
 }
-.clear:active{
+
+.clear:active {
     background-color: rgb(128, 145, 235);
 }

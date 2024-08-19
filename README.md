@@ -26,6 +26,6 @@ Feel free to use and customize this calculator for your needs. If you have any s
 
 Happy calculating!
 
-![Image Alt Text](calc_image.png)
+![Image Alt Text](calc-picture.png)
 
 Feel free to adjust the content based on your specific implementation and audience.
